@@ -7,6 +7,8 @@
 - [Methodology](#methodology)
 - [Results](#results)
 
+[Return to e-portfolio](https://github.com/AnthonyBaratti/AnthonyBaratti.github.io/tree/main)
+
 ## Overview
 This project implements a Deep Q-Learning (DQN) agent to solve a grid-based Treasure Hunt game. The objective is to train an intelligent agent (the "pirate") to navigate a maze and reach a treasure while avoiding invalid or suboptimal moves. <br><br>
 The notebook demonstrates how reinforcement learning can be applied to path-finding problems using neural networks and Q-learning, combining concepts from machine learning, artificial intelligence, and gaming environments. <br><br>
@@ -61,3 +63,4 @@ The maze visualization updates dynamically to show:
    Over time, the agent improves its decision-making by learning which actions lead to higher rewards.
 
 ## Results
+[Return to top](#table-of-contents)
