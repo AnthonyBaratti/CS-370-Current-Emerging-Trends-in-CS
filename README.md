@@ -44,22 +44,20 @@ The maze visualization updates dynamically to show:
 
 ## Methodology
 1. Environment Setup
-  The maze and game rules are defined using provided classes. Each state represents the agent's current position within the maze.
+   The maze and game rules are defined using provided classes. Each state represents the agent's current position within the maze.
 2. Deep Q-Learning Model
-  A neural networks is used to approximate the Q-value function:
-  - Input: current state of the maze
-  - Output: Q-values for possible actions
-  The model is built using Keras with:
-  - Fully connected layers
-  - Non-linear activation functions
-  - Gradient-based optimization
+  A neural network is used to approximate the Q-value function:
+    - Input: current state of the maze
+    - Output: Q-values for possible actions
+  The model is building using Keras with:
+    - Fully connected layers
+    - Non-linear activation functions
+    - Gradient-based optimization
 3. Training Process
-  The agent is trained using:
-  - Exploration vs exploitation strategy
-  - Experience replay
-  - Iterative updates to the Q-network
-  Over time, the agent improves its decision-making by learning which actions lead to higher rewards.
-4. Model Evaluations
-  After training:
+   The agent is trained using:
+     - Exploration vs exploitation strategy
+     - Experience replay
+     - Iterative updates to the Q-network
+   Over time, the agent improves its decision-making by learning which actions lead to higher rewards.
 
 ## Results
