@@ -43,9 +43,9 @@ The maze visualization updates dynamically to show:
 - Reinforcment Learning (DQN)
 
 ## Methodology
-1. Environment Setup
+1. Environment Setup <br>
    The maze and game rules are defined using provided classes. Each state represents the agent's current position within the maze.
-2. Deep Q-Learning Model
+2. Deep Q-Learning Model <br>
   A neural network is used to approximate the Q-value function:
     - Input: current state of the maze
     - Output: Q-values for possible actions
@@ -53,7 +53,7 @@ The maze visualization updates dynamically to show:
     - Fully connected layers
     - Non-linear activation functions
     - Gradient-based optimization
-3. Training Process
+3. Training Process <br>
    The agent is trained using:
      - Exploration vs exploitation strategy
      - Experience replay
