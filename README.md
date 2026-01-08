@@ -31,11 +31,6 @@ The problem is to train an agent that learns the optimal policy for reaching the
   - Negative reward for invalid or inefficient moves
 - The agent's goal is to maximize cumulative reward
 
-The maze visualization updates dynamically to show:
-- Visited cells
-- Current agent position
-- Final treasure location
-
 ## Technologies Used
 - Python
 - Jupyter Notebook
@@ -60,7 +55,15 @@ The maze visualization updates dynamically to show:
      - Exploration vs exploitation strategy
      - Experience replay
      - Iterative updates to the Q-network
-   Over time, the agent improves its decision-making by learning which actions lead to higher rewards.
+   Over time, the agent improves its decision-making by learning which actions lead to higher rewards.<br>
+4. Model Evaluation
+   After training:
+   - The trained model is tested against the maze
+   - The agent's path is visualized
+   - Performance is evaluated based on its ability to reach the treasure efficiently
 
 ## Results
+- The trained agent successfully learns to navigate the maze
+- The final model demonstrates effective path-finding behavior using learned policies rather than predefined logic
+<br><br>
 [Return to top](#table-of-contents)
